@@ -1,1 +1,27 @@
+public class car {
+ static String carname;
+ String carmodel;
+ int number;
+    public void displaydetails(){
+      System.out.println("name:"+carname);
+      System.out.println("model:"+carmodel);
+      System.out.println("num:"+number);
+      System.out.println("------------");
+ }
+ public static void main(String[] args) {
+   carname="tatamotors";
+   car rahul = new car();
+   rahul.carmodel="rahul";
+   rahul.number=24;
+   car rahul2= new car();
+   rahul2.carmodel="sunny";
+   rahul2.number=45;
+   rahul.displaydetails();
+   rahul2.displaydetails();  
+ }
 
+
+   
+
+    
+}
